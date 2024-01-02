@@ -1,0 +1,72 @@
+ body{
+
+    margin:0;
+    padding:0;
+ }
+ 
+ .header-part{
+
+    /* border:2px solid black; */
+    background-color: lightslategray;
+    height:6vw;
+    padding:1vw;
+ }
+ .nav-bar{
+    /* border:1px solid red; */
+    /* padding:1vw; */
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .user-icon{
+    color:white;
+    background-color:black;
+    height:5vw;
+    width:5vw;
+    border-radius: 50%;
+    display:flex;
+    /* text-align:center; */
+    justify-content: center;
+    align-items: center;
+    font-size:1.3vw;
+ }
+ 
+ .input-part{
+    /* border:2px solid yellow; */
+    padding:1.5vw;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1.5vw;
+ }
+ button{
+    padding:1vw;
+    border-radius:50%;
+
+ }
+ input{
+    padding:1vw;
+
+ }
+
+ .section-data{
+     background-color: lightgray;
+     width:100%;
+     height:85vh;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+ table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+    padding:3vw;
+  }
+  thead{
+    font-size:2vw;
+  }
+  
+  
+ 
